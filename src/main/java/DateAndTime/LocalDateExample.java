@@ -31,8 +31,17 @@ public class LocalDateExample {
 			System.out.println("withChronoField: "+localDate.with(ChronoField.YEAR, 2032));
 			System.out.println("withTemporal Adjusters: "+localDate.with(TemporalAdjusters.firstDayOfNextMonth()));
 			
-			//System.out.println(localDate.toEpochDay());
-			
+			System.out.println(localDate.toEpochDay());
+
+			//write new date operations
+		DateOperations dateOperations = new DateOperations();
+		dateOperations.dateOperations(localDate);
+		System.out.println(localDate);
+
+		//write to find out if its a leap year
+		
+		LeapYear leapYear = new LeapYear();
+		leapYear.leapYear(localDate);
 			
 	}
 
