@@ -21,8 +21,9 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          java-version: '17' # Use JDK 17
-
+          java-version: '17'            # Specify the JDK version
+          distribution: 'temurin'      # Specify the distribution (use 'temurin' for OpenJDK)
+          
       - name: Build with Maven
         run: mvn clean install
 
