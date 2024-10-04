@@ -2,7 +2,6 @@ package vowelExtract;
 import javax.swing.JOptionPane;
 
 public class StringVowel {
-
     public static String Vowel(String str) {
         StringBuilder s = new StringBuilder();
 
