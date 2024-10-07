@@ -32,7 +32,6 @@ public class LocalDateExample {
 			System.out.println("withTemporal Adjusters: "+localDate.with(TemporalAdjusters.firstDayOfNextMonth()));
 			
 			System.out.println(localDate.toEpochDay());
-			
 	}
 
 }
