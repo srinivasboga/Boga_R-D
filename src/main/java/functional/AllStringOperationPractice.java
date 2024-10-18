@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -52,6 +53,9 @@ public class AllStringOperationPractice {
 		List<Integer> dupList1 = l2.stream()
 									.filter(e -> Collections.frequency(l2, e)>1).distinct().toList();
 		
+		Map<Integer, Long> map1 = l2.stream()
+						.collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+
 		System.out.println("List of duplicated ele's:"+dupList1);
 		
 		Stream<Integer> dupList =l2.stream();
@@ -95,8 +99,14 @@ public class AllStringOperationPractice {
 			}
 		}
 		
+		Map<Character, Long> map2 = s.chars()
+				.mapToObj(c -> (char) c)
+				.collect(Collectors.groupingBy(Function.identity(), Collectors.summingLong(e->1)));
+				
+		
 		System.out.println(map.keySet()+"\n"+map.values());
 		
+		System.out.println(map2+"-----------------");
 		/*
 		 * for(Character c: map.keySet()) { System.out.println(c+" "+map.values()); }
 		 */
