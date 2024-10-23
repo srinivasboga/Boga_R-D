@@ -23,9 +23,13 @@ public class AllStringOperationPractice {
 		
 		System.out.println("-----Java Stream .map capitalize first letter only-----");
 		
-		List<String> ll = list.stream().map(e-> (e.substring(0,1).toUpperCase()) + e.substring(1)).toList();
+		List<String> ll = list.stream()
+				.map(e-> (e.substring(0,1).toUpperCase()) + e.substring(1))
+				.toList();
 		
-		List<String> ToUpp = str.map(e -> Character.toUpperCase(e.charAt(0)) + e.substring(1)).toList();
+		List<String> ToUpp = str
+				.map(e -> Character.toUpperCase(e.charAt(0)) + e.substring(1))
+				.toList();
 			
 		//List<String> stream = str.map(e -> Character.toUpperCase(e.charAt(0)) + e.substring(1)).toList();
 		
@@ -63,6 +67,7 @@ public class AllStringOperationPractice {
 		 Set<Integer> dupSet = new HashSet<>();
 		 
 		 dupList.filter(e-> !dupSet.add(e)).collect(Collectors.toSet());
+		 
 		 System.out.println(dupSet);
 		  
 		System.out.println("==========Count occurrence of a given character in a string===========");
@@ -78,10 +83,15 @@ public class AllStringOperationPractice {
 		
 		List<Integer> rev = Arrays.asList(11, 22, 33, 44);
 		
-		int stm = rev.stream().sorted(Comparator.reverseOrder()).limit(2).skip(1).findFirst().get();
+		int stm = rev.stream()
+				.sorted(Comparator.reverseOrder())
+				.limit(2)
+				.skip(1)
+				.findFirst()
+				.get();
 		
 		//List<Integer> reee = stm.toList();
-		System.out.println("Stm: "+stm);
+		System.out.println("Find 2nd largest number: "+stm);
 		System.out.println("==========Counting the chars from String===========");
 		
 		String s = "Srinivas".toLowerCase();
