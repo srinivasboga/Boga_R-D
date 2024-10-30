@@ -1,0 +1,500 @@
+   19  git diff
+   20  git add .
+   21  git commit -m "ExternalStorageConfig"
+   22  git rebase -i origin/main
+   23  git push -f origin bs/Issue-4-new
+   24  git add .
+   25  git rebase -i origin/main
+   26  git push -f origin bs/Issue-4-new
+   27  git switch bs/Issue-2
+   28  git rebase -i origin/main
+   29  git add .
+   30  git commit --amend
+   31  git rebase --continue
+   32  git rebase -i origin/main
+   33  git add .
+   34  git commit --amend
+   35  git rebase --continue
+   36  git push -f origin bs/Issue-2
+   37  git add .
+   38  git commit --amend
+   39  git rebase --continue
+   40  git push -f origin bs/Issue-2
+   41  git pull
+   42  git rebase -i origin/main
+   43  git diff
+   44  git diff
+   45  git add .
+   46  git commit --amend
+   47  git rebase --continue
+   48  git push -f origin bs/Issue-2
+   49  git pull
+   50  git rebase -i origin/main
+   51  git add .
+   52  git rebase --continue
+   53  git push -f origin bs/Issue-2
+   54  git switch bs/Issue-4-new
+   55  git push -D origin bs/Issue-4-new
+   56  git push -d origin bs/Issue-4-new
+   57  git switch bs/Issue-2
+   58  git diff
+   59  git checkout -- .
+   60  git switch bs/Issue-2
+   61  git checkout -b bs/Issue-4-pom-updated
+   62  git add .
+   63  git commit -m "Issue #4: find2ndHighestElefromArray"
+   64  git add .
+   65  git commit -m "Issue #4: Find Non Repeating chars in a String"
+   66  git add .
+   67  git commit -m "Issue #4: Do some operations on String"
+   68  git rebase -i origin/main
+   69  git push -d origin bs/Issue-4-pom-updated
+   70  git push -f origin bs/Issue-4-pom-updated
+   71  git rebase -i origin/main
+   72  git diff
+   73  git add .
+   74  git commit -m "POM: Add externalStorageConfigManager"
+   75  git rebase -i origin/main
+   76  git branch -m bs/Issue-6
+   77  git branch -m bs/Issue-6-str
+   78  git push -f origin bs/Issue-6-str
+   79  git diff
+   80  git add .
+   81  git commit --amend
+   82  git push -f origin bs/Issue-6-str
+   83  git push -f origin bs/Issue-6-str
+   84  exit
+   85  exit
+   86  git diff
+   87  git add .
+   88  git commit -m "Issue #6: StreamAPI: find 2nd highest ele from a list"
+   89  git rebase -i origin/main
+   90  git push -f origin bs/Issue-6-str
+   91  exit
+   92  git checkout -- .
+   93  exit
+   94  git checkout -- .
+   95  exit
+   96  git checkout -b bs/Issue-8
+   97  git add .
+   98  git commit -m "Issue #8: StreamAPI: finding vowels in a sentence"
+   99  git push -f origin bs/Issue-8
+  100  exit
+  101  git diff
+  102  git add .
+  103  git commit "Issue #8: Test: Add test for finding vowels in string"
+  104  git rebase -i origin/main
+  105  git diff
+  106  git rebase -i origin/main
+  107  git add .
+  108  git rebase -i origin/main
+  109  git diff
+  110  git add .
+  111  git commit --amend
+  112  git checkout -b bs/Issue-9
+  113  exit
+  114  git diff
+  115  git branch
+  116  git show bs/Issue-9
+  117  git reset -soft ^HEAD
+  118  git reset --soft ^HEAD
+  119  git reset --soft ~HEAD
+  120  git reset --soft HEAD
+  121  git show bs/Issue-9
+  122  git reset --soft HEAD~1
+  123  git show bs/Issue-9
+  124  git diff
+  125  git status
+  126  git reset
+  127  git status
+  128  git log --oneline
+  129  git branch
+  130  git switch bs/Issue-8
+  131  git add src/main/java/functional/findVowelsInString.java
+  132  git reset
+  133  git add src/test/java/VowelFinderTest.java
+  134  git commit -m "Issue #9: Test : add test for findVowelsIn string"
+  135  git status
+  136  git add .
+  137  git commit -m "Issue #9: create a class for find vowels in string"
+  138  git reset src/main/java/algo/kadaneAlgorithm.java
+  139  git status
+  140  git diff
+  141  git diff
+  142  git reset src/main/java/algo/kadaneAlgorithm.java
+  143  git status
+  144  git rebase -i origin/main
+  145  git rebase -i origin/main
+  146  git reset src/main/java/algo/kadaneAlgorithm.java
+  147  git reset -- src/main/java/algo/kadaneAlgorithm.java
+  148  git status
+  149  git log
+  150  git diff
+  151  git rebase -i origin/main
+  152  git push -f origin bs/Issue-9
+  153  exit
+  154  git add .
+  155  git commit --amend
+  156  git rebase -i origin/main
+  157  git push -f origin bs/Issue-9
+  158  git push -f origin bs/Issue-9
+  159  exit
+  160  git checkout -b bs/Issue-16
+  161  git rebase -i origin/main
+  162  git diff
+  163  git checkout -- .
+  164  git rebase -i origin/main
+  165  git rebase -i origin/main
+  166  git add -p
+  167  git switch bs/Issue-9
+  168  git commit -m "Issue #16: delete misllenious code"
+  169  git add .
+  170  git commit -m "Issue #16: Algo: Implement Kadane's algorithm"
+  171  git push -f origin bs/Issue-16
+  172  git add .
+  173  git commit --amend
+  174  git add .
+  175  git commit --amend
+  176  git add .
+  177  git commit -m "Issue #16: ReadMe : Add kanade's algo readme file"
+  178  git rebase -i origin/main
+  179  git push -f origin bs/Issue-16
+  180  exit
+  181  git clone https://github.com/srinivasboga/microservices.git
+  182  git diff
+  183  exit
+  184  git diff
+  185  git push -f origin main/microservices
+  186  git init
+  187  git remote add origin https://github.com/srinivasboga/microservices.git
+  188  git diff
+  189  git status
+  190  git add .
+  191  git commit -m "Microservices: add payment service"
+  192  git push -u origin master
+  193  exit
+  194  git diff
+  195  git init
+  196  exit
+  197  exit
+  198  git diff
+  199  git diff
+  200  git add .
+  201  git commit --amend
+  202  git rebase -i origin/main
+  203  git push -u origin bs/Issue-16
+  204  git pull
+  205  git rebase -i origin/main
+  206  git add .
+  207  git commit --amend
+  208  git rebase --contiune
+  209  git rebase -contiune
+  210  git rebase --continue
+  211  git rebase --skip
+  212  git rebase --skip
+  213  git add .
+  214  git commit --amend
+  215  git rebase -i origin/main
+  216  git push -u origin bs/Issue-16
+  217  git pull origin bs/Issue-16
+  218  git pull origin bs/Issue-16
+  219  git add .
+  220  git commit --amend
+  221  git commit
+  222  git push -f origin bs/Issue-16
+  223  exit
+  224  exit
+  225  exit
+  226  git add .
+  227  git commit --amend
+  228  git rebase -i origin/main
+  229  git push -f origin master
+  230  git push -f master
+  231  exit
+  232  exit
+  233  git diff
+  234  git add .
+  235  git checkout -b bs/Issue-20
+  236  git commit -m "Issue #20: StreamsAPI: prints all numeric values that exist in a given list of strings"
+  237  git branch
+  238  git switch bs/Issue-6
+  239  git rebase -i origin/main
+  240  git add .
+  241  git commit --amend
+  242  git rebase --continue
+  243  git branch
+  244  git switch bs/Issue-20
+  245  git push -f origin bs/Issue-20
+  246  git pull origin bs/Issue-20
+  247  git add .
+  248  git commit --amend
+  249  git push -f origin bs/Issue-20
+  250  git push -f origin bs/Issue-20
+  251  exit
+  252  git diff
+  253  git log --oneline
+  254  git checkout -b bs/Issue-22
+  255  git commit "Issue #22: String: Implement letter printing based on preceding numbers in string"
+  256  git add .
+  257  git commit "Issue #22: String: Implement letter printing based on preceding numbers in string"
+  258  git commit -m "Issue #22: String: Implement letter printing based on preceding numbers in string"
+  259  git rm git rm target/classes/other/printLettersAsprecedingNoOfTimes_2.class
+  260  git add .
+  261  git commit --amend
+  262  git push -f origin bs/Issue-22
+  263  git add .
+  264  git commit --amend
+  265  git push -f origin bs/Issue-22
+  266  git fetch origin
+  267  git checkout bs/Issue-22
+  268  git merge origin/main
+  269  git rm --cached target/classes/module-info.class
+  270  git add target/classes/module-info.class
+  271  git commit -m "Resolve conflicts and remove module-info.class from tracking"
+  272  git push -f origin bs/Issue-22
+  273  git show
+  274  git diff
+  275  exit
+  276  git dif
+  277  git diff
+  278  git show
+  279  git status
+  280  git add /src/main/java/functional/AllStringOperationPractice.java
+  281  git add src/main/java/functional/AllStringOperationPractice.java
+  282  git commit -m "Issue #22: String: add some changes in AllStringOperationPractice file"
+  283  git status
+  284  git diff
+  285  git diff
+  286  git checkout -b bs/Issue-24
+  287  git add src/main/java/functional/StringCount.java
+  288  git commit -m "Issue #24: String: Count the num of strings as given input"
+  289  git diff
+  290  git add pom.xml
+  291  git checkout -b bs/Issue-25
+  292  git commit -m "Issue #25: POM: Add test related dependencies in pom file"
+  293  git status
+  294  git add src/test/java/other/PrintLettersTest.java
+  295  git commit -m "Issue #25: Test: Add test cases for PrintLetters "
+  296  git diff
+  297  git branch
+  298  git switch bs/Issue-22
+  299  git add .
+  300  git commit -m "Issue #22: String: Do some changes in PrintLetters class"
+  301  git rebase -i origin/main
+  302  git rm target/classes/module-info.class
+  303  git rebase --continue
+  304  git push -f origin bs/Issue-22
+  305  git rebase -i origin/main
+  306  git push -f origin bs/Issue-22
+  307  git pull origin
+  308  git diff
+  309  git rebase -i origin/main
+  310  git rm target/classes/module-info.class
+  311  git add .
+  312  git rebase --continue
+  313  git push -f origin bs/Issue-22
+  314  git switch bs/Issue-24
+  315  git rebase -i origin/main
+  316  git pull origin
+  317  git rebase -i origin/main
+  318  git rebase -i origin/main
+  319  git push -f origin bs/Issue-24
+  320  git switch bs/Issue-25
+  321  git rebase -i origin/main
+  322  git pull origin
+  323  git rebase -i origin/main
+  324  git push -f origin bs/Issue-25
+  325  git diff
+  326  git branch
+  327  exit
+  328  git diff
+  329  git checkout -b bs/Issue-29
+  330  git staus
+  331  git status
+  332  git add src/main/java/functional/AllStringOperationPractice.java
+  333  git add target/classes/functional/AllStringOperationPractice.class
+  334  git commit -m "Issue #29: Old_File: do some changes in file"
+  335  git status
+  336  git add .
+  337  git commit -m "Issue #29: LinkedList: Write a sorting algorithm for LinkedList"
+  338  git push -f origin/main bs/Issue-29
+  339  git push -f origin bs/Issue-29
+  340  exit
+  341  git pull origin
+  342  git diff
+  343  git add .
+  344  git commit --amend
+  345  git push -f origin bs/Issue-29
+  346  eval $(ssh-agent -s)
+  347  ssh-add ~/.ssh/id_ed25519
+  348  ssh-add -l
+  349  git push -f origin bs/Issue-29
+  350  git pull origin
+  351  git pull origin bs/Issue-29
+  352  git rebase -i origin/main
+  353  git push -f origin bs/Issue-29
+  354  git rebase -i origin/main
+  355  git diff
+  356  git status
+  357  git rm --cached target/classes/algo/LinkedList.class
+  358  git rm --cached target/classes/functional/StringCount.class
+  359  git rm --cached target/classes/*.class
+  360  git staus
+  361  git status
+  362  git add src/main/java/functional/StringCount.java
+  363  git checkout -b bs/Issue-30
+  364  git commit -m "Issue 30: string count from a given sentence"
+  365  git status
+  366  git rebase -i origin/main
+  367  git rm target/classes/functional/AllStringOperationPractice.class
+  368  git add .
+  369  git commit --amend
+  370  git rebase --continue
+  371  git rebase -i origin/main
+  372  git log --oneline
+  373  git diff
+  374  git add .
+  375  git commit -m "Issue #30: String : Add a method to find the string count";
+  376  git diff
+  377  git add .
+  378  git commit --amend
+  379  git push -f origin bs/Issue-30
+  380  git push -f origin bs/Issue-30
+  381  git pull origin bs/Issue-30
+  382  git add .
+  383  git commit --amend
+  384  git push -f origin bs/Issue-30
+  385  git add .
+  386  git commit --amend
+  387  git push -f origin bs/Issue-30
+  388  git add .
+  389  git commit --amend
+  390  git push -f origin bs/Issue-30
+  391  exit
+  392  git diff 
+  393  git add .
+  394  git commit --amend
+  395  git push -f origin bs/Issue-30
+  396  git pull origin bs/Issue-30
+  397  git pull main bs/Issue-30
+  398  git push -f origin bs/Issue-30
+  399  Enter passphrase for key '/c/Users/bogas/.ssh/id_ed25519':
+  400  Enumerating objects: 23, done.
+  401  eval $(ssh-agent -s)
+  402  ssh-add ~/.ssh/id_ed25519
+  403  ssh-keygen -p -f ~/.ssh/id_ed25519
+  404  git remote set-url origin https://github.com/username/repo.git
+  405  exit
+  406  git diff
+  407  git init
+  408  git remote add origin git@github.com:srinivasboga/Getrosoft_Assessment.git
+  409  git remote set-url origin git@github.com:srinivasboga/Getrosoft_Assessment.git
+  410  git push -u origin main  # Or 'master' if that's your default branch
+  411  git remote remove origin
+  412  git remote add origin git@github.com:srinivasboga/Getrosoft_Assessment.git
+  413  git push -u origin main
+  414  git branch
+  415  git push -u origin master
+  416  git branch
+  417  git push -u origin main
+  418  exit
+  419  git init
+  420  git branch
+  421  git push -u origin master
+  422  git push -u origin main
+  423  exit
+  424  cd C:\Users\bogas\Downloads\teleport
+  425  cd /c/Users/bogas/Downloads/teleport
+  426  git init
+  427  git push -u origin master
+  428  git remote set-url origin git@github.com:srinivasboga/Getrosoft_Assessment.git
+  429  git remote set-url main git@github.com:srinivasboga/Getrosoft_Assessment.git
+  430  git remote set-url master git@github.com:srinivasboga/Getrosoft_Assessment.git
+  431  git remote add origin git@github.com:srinivasboga/Getrosoft_Assessment.git
+  432  git push -u origin master
+  433  git push -u origin main
+  434  git branch
+  435  git add .
+  436  git commit -m "Teleport: add teleport files"
+  437  git push -u origin master
+  438  git log --oneline
+  439  git reset HEAD~1
+  440  git reset --soft HEAD^
+  441  git log --oneline
+  442  git status
+  443  git restore .idea/vcs.xml
+  444  git status
+  445  git reset --soft HEAD^
+  446  git reset HEAD~1
+  447  git reset --soft HEAD^
+  448  git status
+  449  git log --oneline
+  450  git reset --soft 
+  451  git reset --soft c7b5474
+  452  git log --oneline
+  453  git status
+  454  git show c7b5474
+  455  git reset --soft c7b5474
+  456  git add .
+  457  git commit --amend
+  458  git push -f origin master
+  459  git diff
+  460  git status
+  461  git diff
+  462  git status
+  463  git add teleport/src/main/java/com/getrosoft/teleport/service/TrackingNumberService.java
+  464  git commit -m "Teleport: Add TrackingNumberService functionality"
+  465  git add teleport/src/main/java/com/getrosoft/teleport/controller/TrackingNumberController.java
+  466  git commit -m "Teleport: Do modify"
+  467  git add .
+  468  git commit -m "Teleport: add dependencies in test class"
+  469  git status
+  470  git push -f origin master
+  471  exit
+  472  git diff
+  473  git diff
+  474  git add .
+  475  git commit -m "Create Readme.md file"
+  476  git push -f origin master
+  477  git add .
+  478  git commit -m "Add yaml file"
+  479  git push -f origin master
+  480  exit
+  481  git diff
+  482  git add .
+  483  git status
+  484  git branch
+  485  exit
+  486  git diff
+  487  git diff
+  488  exit
+  489  git checkout -b bs/issue-33
+  490  git diff
+  491  git diff
+  492  git diff
+  493  git diff
+  494  git add .
+  495  git commit -m "Logical: 
+  496  find the third duplicate number"
+  497  cd M:\Git\Boga_R-D
+  498  exit
+  499  cd M:\Git\Boga_R-D
+  500  exit
+  501  git diff
+  502  git diff
+  503  git checkout -b bs/Issue-33
+  504  git add .
+  505  git commit -m "Issue-33: Logical: find the third duplicate number from the given numbers"
+  506  git rebase origin/main
+  507  git status
+  508  git rebase -i origin/main
+  509  git push -f origin bs/Issue-33
+  510  git branch
+  511  git push -f master bs/Issue-33
+  512  git push -f main bs/Issue-33
+  513  git push -f bs/Issue-33
+  514  git push -f origin master
+  515  git remote -v
+  516  Get-History
+  517  doskey /history
+  518  history > command_history.txt
