@@ -60,7 +60,7 @@ public class AllStringOperationPractice {
 		Map<Integer, Long> map1 = l2.stream()
 						.collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
-		System.out.println("List of duplicated ele's:"+dupList1);
+		System.out.println("List of duplicated ele's:"+dupList1+"2nd method finding duplicated ele's :"+map1);
 		
 		Stream<Integer> dupList =l2.stream();
 		
@@ -68,7 +68,7 @@ public class AllStringOperationPractice {
 		 
 		 dupList.filter(e-> !dupSet.add(e)).collect(Collectors.toSet());
 		 
-		 System.out.println(dupSet);
+		 System.out.println("duplist: "+dupSet);
 		  
 		System.out.println("==========Count occurrence of a given character in a string===========");
 		
@@ -125,7 +125,16 @@ public class AllStringOperationPractice {
 		char c2='B';
 		System.out.println(c11+c2);
 		
+		String sentence = "Hello World!";
+		
+		Map<Character, Long> sentenceMap = sentence.chars()
+				.mapToObj(c -> (char) c)
+				.map(Character::toLowerCase)
+				.filter(Character:: isLetter)
+				.collect(Collectors.groupingBy(
+						Function.identity(), Collectors.counting()));
+		System.out.println("Character\tCount from a sentence :"+sentenceMap);
+		sentenceMap.forEach((ch, count) -> {System.out.println(ch + ": " + count);});
 	}
-
 	
 }
